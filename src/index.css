@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.card {
+  background-color: #a2a1a1;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+
+.align-center {
+  text-align: center;
+}
+
+.btn {
+  padding: 12px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration: none;
+  background-color: #61dafb;
+  color: white;
+}
+
+
+.selectedOption {
+  border: 3px solid #3371f6;
+}
+.btn-primary {
+  background-color: #3737f1;
+  color: white;
+}
+
+.btn-success {
+  background-color: #2efa2e;
+  color: white;
+}
+
+.quiz-actions {
+  margin-top: 50px;
+}
+
+.question-page, .review-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100dvh;
 }
